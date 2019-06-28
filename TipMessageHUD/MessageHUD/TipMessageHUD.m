@@ -22,8 +22,7 @@
     });
     return hud;
 }
-
-+ (void)showStatus:(TipMessageHUDStatus)status text:(NSString *)text superView:(nonnull UIView *)superView{
++ (void)showStatus:(TipMessageHUDStatus)status text:(NSString *)text superView:(UIView *)superView{
     TipMessageHUD *hud = [TipMessageHUD sharedHUD];
     [hud showAnimated:YES];
     [hud setShowNow:YES];
