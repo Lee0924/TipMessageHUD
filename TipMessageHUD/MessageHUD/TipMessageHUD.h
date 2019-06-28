@@ -1,25 +1,35 @@
-# TipMessageHUD
-iOS 活动指示器
+//
+//  TipMessageHUD.h
+//  TipMessageHUD
+//
+//  Created by iOS on 2019/6/28.
+//  Copyright © 2019 TipMessageHUD. All rights reserved.
+//
+
+
+#import "MBProgressHUD.h"
+#import <MBProgressHUD/MBProgressHUD.h>
+NS_ASSUME_NONNULL_BEGIN
 
 typedef NS_ENUM(NSInteger, TipMessageHUDStatus) {
-
-/** 成功 */
-TipMessageHUDStatusSuccess,
-
-/** 失败 */
-TipMessageHUDStatusError,
-
-/** 提示 */
-TipMessageHUDStatusInfo,
-
-/** 等待 */
-TipMessageHUDStatusWaitting
+    
+    /** 成功 */
+    TipMessageHUDStatusSuccess,
+    
+    /** 失败 */
+    TipMessageHUDStatusError,
+    
+    /** 提示 */
+    TipMessageHUDStatusInfo,
+    
+    /** 等待 */
+    TipMessageHUDStatusWaitting
 };
 
 @interface TipMessageHUD : MBProgressHUD
 /**
-*  是否正在显示
-*/
+ *  是否正在显示
+ */
 @property (nonatomic, assign, getter=isShowNow) BOOL showNow;
 
 /** 返回一个 HUD 的单例 */
@@ -48,3 +58,7 @@ TipMessageHUDStatusWaitting
 
 /** 手动隐藏 HUD */
 + (void)hide;
+
+@end
+
+NS_ASSUME_NONNULL_END

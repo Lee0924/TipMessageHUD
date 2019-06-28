@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B03288222C607EC0091F031 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B03288122C607EC0091F031 /* AppDelegate.m */; };
+		9B03288522C607EC0091F031 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B03288422C607EC0091F031 /* ViewController.m */; };
+		9B03288822C607EC0091F031 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B03288622C607EC0091F031 /* Main.storyboard */; };
+		9B03288A22C607EE0091F031 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B03288922C607EE0091F031 /* Assets.xcassets */; };
+		9B03288D22C607EE0091F031 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B03288B22C607EE0091F031 /* LaunchScreen.storyboard */; };
+		9B03289022C607EE0091F031 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B03288F22C607EE0091F031 /* main.m */; };
+		9B03289A22C607EE0091F031 /* TipMessageHUDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B03289922C607EE0091F031 /* TipMessageHUDTests.m */; };
+		9B0328A522C607EE0091F031 /* TipMessageHUDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0328A422C607EE0091F031 /* TipMessageHUDUITests.m */; };
+		9B0328B522C60B6C0091F031 /* TipMessageHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0328B422C60B6C0091F031 /* TipMessageHUD.m */; };
+		9B0328C122C60F600091F031 /* TipMessageHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9B0328C022C60F600091F031 /* TipMessageHUD.bundle */; };
+		F157F3EB8CE2FAFC871B6DFE /* libPods-TipMessageHUD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D62E94BB85784E3C8DA22D6E /* libPods-TipMessageHUD.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B03289622C607EE0091F031 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B03287522C607EC0091F031 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B03287C22C607EC0091F031;
+			remoteInfo = TipMessageHUD;
+		};
+		9B0328A122C607EE0091F031 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B03287522C607EC0091F031 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B03287C22C607EC0091F031;
+			remoteInfo = TipMessageHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4785DF28538A8258ACD5E028 /* Pods-TipMessageHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipMessageHUD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TipMessageHUD/Pods-TipMessageHUD.debug.xcconfig"; sourceTree = "<group>"; };
+		5954F35A79C4321BCD997D6F /* Pods-TipMessageHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipMessageHUD.release.xcconfig"; path = "Pods/Target Support Files/Pods-TipMessageHUD/Pods-TipMessageHUD.release.xcconfig"; sourceTree = "<group>"; };
+		9B03287D22C607EC0091F031 /* TipMessageHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipMessageHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B03288022C607EC0091F031 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9B03288122C607EC0091F031 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9B03288322C607EC0091F031 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9B03288422C607EC0091F031 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9B03288722C607EC0091F031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B03288922C607EE0091F031 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B03288C22C607EE0091F031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B03288E22C607EE0091F031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B03288F22C607EE0091F031 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B03289522C607EE0091F031 /* TipMessageHUDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipMessageHUDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B03289922C607EE0091F031 /* TipMessageHUDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipMessageHUDTests.m; sourceTree = "<group>"; };
+		9B03289B22C607EE0091F031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B0328A022C607EE0091F031 /* TipMessageHUDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipMessageHUDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B0328A422C607EE0091F031 /* TipMessageHUDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipMessageHUDUITests.m; sourceTree = "<group>"; };
+		9B0328A622C607EE0091F031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B0328B322C60B6C0091F031 /* TipMessageHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TipMessageHUD.h; sourceTree = "<group>"; };
+		9B0328B422C60B6C0091F031 /* TipMessageHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipMessageHUD.m; sourceTree = "<group>"; };
+		9B0328BC22C60CAE0091F031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B0328C022C60F600091F031 /* TipMessageHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TipMessageHUD.bundle; sourceTree = "<group>"; };
+		D62E94BB85784E3C8DA22D6E /* libPods-TipMessageHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TipMessageHUD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B03287A22C607EC0091F031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F157F3EB8CE2FAFC871B6DFE /* libPods-TipMessageHUD.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B03289222C607EE0091F031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B03289D22C607EE0091F031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55A29FC7F45178D5361F7BC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D62E94BB85784E3C8DA22D6E /* libPods-TipMessageHUD.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B03287422C607EC0091F031 = {
+			isa = PBXGroup;
+			children = (
+				9B03287F22C607EC0091F031 /* TipMessageHUD */,
+				9B03289822C607EE0091F031 /* TipMessageHUDTests */,
+				9B0328A322C607EE0091F031 /* TipMessageHUDUITests */,
+				9B0328BB22C60CAE0091F031 /* MessageHUD */,
+				9B03287E22C607EC0091F031 /* Products */,
+				C52B90DC0928D9D5BD63851A /* Pods */,
+				55A29FC7F45178D5361F7BC8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9B03287E22C607EC0091F031 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B03287D22C607EC0091F031 /* TipMessageHUD.app */,
+				9B03289522C607EE0091F031 /* TipMessageHUDTests.xctest */,
+				9B0328A022C607EE0091F031 /* TipMessageHUDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B03287F22C607EC0091F031 /* TipMessageHUD */ = {
+			isa = PBXGroup;
+			children = (
+				9B03288022C607EC0091F031 /* AppDelegate.h */,
+				9B03288122C607EC0091F031 /* AppDelegate.m */,
+				9B03288322C607EC0091F031 /* ViewController.h */,
+				9B03288422C607EC0091F031 /* ViewController.m */,
+				9B0328B222C60B240091F031 /* MessageHUD */,
+				9B03288622C607EC0091F031 /* Main.storyboard */,
+				9B03288922C607EE0091F031 /* Assets.xcassets */,
+				9B03288B22C607EE0091F031 /* LaunchScreen.storyboard */,
+				9B03288E22C607EE0091F031 /* Info.plist */,
+				9B03288F22C607EE0091F031 /* main.m */,
+			);
+			path = TipMessageHUD;
+			sourceTree = "<group>";
+		};
+		9B03289822C607EE0091F031 /* TipMessageHUDTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B03289922C607EE0091F031 /* TipMessageHUDTests.m */,
+				9B03289B22C607EE0091F031 /* Info.plist */,
+			);
+			path = TipMessageHUDTests;
+			sourceTree = "<group>";
+		};
+		9B0328A322C607EE0091F031 /* TipMessageHUDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B0328A422C607EE0091F031 /* TipMessageHUDUITests.m */,
+				9B0328A622C607EE0091F031 /* Info.plist */,
+			);
+			path = TipMessageHUDUITests;
+			sourceTree = "<group>";
+		};
+		9B0328B222C60B240091F031 /* MessageHUD */ = {
+			isa = PBXGroup;
+			children = (
+				9B0328C022C60F600091F031 /* TipMessageHUD.bundle */,
+				9B0328B322C60B6C0091F031 /* TipMessageHUD.h */,
+				9B0328B422C60B6C0091F031 /* TipMessageHUD.m */,
+			);
+			path = MessageHUD;
+			sourceTree = "<group>";
+		};
+		9B0328BB22C60CAE0091F031 /* MessageHUD */ = {
+			isa = PBXGroup;
+			children = (
+				9B0328BC22C60CAE0091F031 /* Info.plist */,
+			);
+			path = MessageHUD;
+			sourceTree = "<group>";
+		};
+		C52B90DC0928D9D5BD63851A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4785DF28538A8258ACD5E028 /* Pods-TipMessageHUD.debug.xcconfig */,
+				5954F35A79C4321BCD997D6F /* Pods-TipMessageHUD.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B03287C22C607EC0091F031 /* TipMessageHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B0328A922C607EE0091F031 /* Build configuration list for PBXNativeTarget "TipMessageHUD" */;
+			buildPhases = (
+				6EC1F9E5C78E607C6ED6E816 /* [CP] Check Pods Manifest.lock */,
+				9B03287922C607EC0091F031 /* Sources */,
+				9B03287A22C607EC0091F031 /* Frameworks */,
+				9B03287B22C607EC0091F031 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TipMessageHUD;
+			productName = TipMessageHUD;
+			productReference = 9B03287D22C607EC0091F031 /* TipMessageHUD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B03289422C607EE0091F031 /* TipMessageHUDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B0328AC22C607EE0091F031 /* Build configuration list for PBXNativeTarget "TipMessageHUDTests" */;
+			buildPhases = (
+				9B03289122C607EE0091F031 /* Sources */,
+				9B03289222C607EE0091F031 /* Frameworks */,
+				9B03289322C607EE0091F031 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B03289722C607EE0091F031 /* PBXTargetDependency */,
+			);
+			name = TipMessageHUDTests;
+			productName = TipMessageHUDTests;
+			productReference = 9B03289522C607EE0091F031 /* TipMessageHUDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B03289F22C607EE0091F031 /* TipMessageHUDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B0328AF22C607EE0091F031 /* Build configuration list for PBXNativeTarget "TipMessageHUDUITests" */;
+			buildPhases = (
+				9B03289C22C607EE0091F031 /* Sources */,
+				9B03289D22C607EE0091F031 /* Frameworks */,
+				9B03289E22C607EE0091F031 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B0328A222C607EE0091F031 /* PBXTargetDependency */,
+			);
+			name = TipMessageHUDUITests;
+			productName = TipMessageHUDUITests;
+			productReference = 9B0328A022C607EE0091F031 /* TipMessageHUDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B03287522C607EC0091F031 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = TipMessageHUD;
+				TargetAttributes = {
+					9B03287C22C607EC0091F031 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					9B03289422C607EE0091F031 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 9B03287C22C607EC0091F031;
+					};
+					9B03289F22C607EE0091F031 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 9B03287C22C607EC0091F031;
+					};
+				};
+			};
+			buildConfigurationList = 9B03287822C607EC0091F031 /* Build configuration list for PBXProject "TipMessageHUD" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B03287422C607EC0091F031;
+			productRefGroup = 9B03287E22C607EC0091F031 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B03287C22C607EC0091F031 /* TipMessageHUD */,
+				9B03289422C607EE0091F031 /* TipMessageHUDTests */,
+				9B03289F22C607EE0091F031 /* TipMessageHUDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B03287B22C607EC0091F031 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B03288D22C607EE0091F031 /* LaunchScreen.storyboard in Resources */,
+				9B03288A22C607EE0091F031 /* Assets.xcassets in Resources */,
+				9B03288822C607EC0091F031 /* Main.storyboard in Resources */,
+				9B0328C122C60F600091F031 /* TipMessageHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B03289322C607EE0091F031 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B03289E22C607EE0091F031 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6EC1F9E5C78E607C6ED6E816 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TipMessageHUD-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B03287922C607EC0091F031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B03288522C607EC0091F031 /* ViewController.m in Sources */,
+				9B0328B522C60B6C0091F031 /* TipMessageHUD.m in Sources */,
+				9B03289022C607EE0091F031 /* main.m in Sources */,
+				9B03288222C607EC0091F031 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B03289122C607EE0091F031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B03289A22C607EE0091F031 /* TipMessageHUDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B03289C22C607EE0091F031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B0328A522C607EE0091F031 /* TipMessageHUDUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B03289722C607EE0091F031 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B03287C22C607EC0091F031 /* TipMessageHUD */;
+			targetProxy = 9B03289622C607EE0091F031 /* PBXContainerItemProxy */;
+		};
+		9B0328A222C607EE0091F031 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B03287C22C607EC0091F031 /* TipMessageHUD */;
+			targetProxy = 9B0328A122C607EE0091F031 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B03288622C607EC0091F031 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B03288722C607EC0091F031 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B03288B22C607EE0091F031 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B03288C22C607EE0091F031 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B0328A722C607EE0091F031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9B0328A822C607EE0091F031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B0328AA22C607EE0091F031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4785DF28538A8258ACD5E028 /* Pods-TipMessageHUD.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BA6JPD8SYU;
+				INFOPLIST_FILE = TipMessageHUD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TipMessageHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B0328AB22C607EE0091F031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5954F35A79C4321BCD997D6F /* Pods-TipMessageHUD.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BA6JPD8SYU;
+				INFOPLIST_FILE = TipMessageHUD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TipMessageHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9B0328AD22C607EE0091F031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BA6JPD8SYU;
+				INFOPLIST_FILE = TipMessageHUDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TipMessageHUD.TipMessageHUDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TipMessageHUD.app/TipMessageHUD";
+			};
+			name = Debug;
+		};
+		9B0328AE22C607EE0091F031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BA6JPD8SYU;
+				INFOPLIST_FILE = TipMessageHUDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TipMessageHUD.TipMessageHUDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TipMessageHUD.app/TipMessageHUD";
+			};
+			name = Release;
+		};
+		9B0328B022C607EE0091F031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BA6JPD8SYU;
+				INFOPLIST_FILE = TipMessageHUDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TipMessageHUD.TipMessageHUDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TipMessageHUD;
+			};
+			name = Debug;
+		};
+		9B0328B122C607EE0091F031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BA6JPD8SYU;
+				INFOPLIST_FILE = TipMessageHUDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TipMessageHUD.TipMessageHUDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TipMessageHUD;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B03287822C607EC0091F031 /* Build configuration list for PBXProject "TipMessageHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B0328A722C607EE0091F031 /* Debug */,
+				9B0328A822C607EE0091F031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B0328A922C607EE0091F031 /* Build configuration list for PBXNativeTarget "TipMessageHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B0328AA22C607EE0091F031 /* Debug */,
+				9B0328AB22C607EE0091F031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B0328AC22C607EE0091F031 /* Build configuration list for PBXNativeTarget "TipMessageHUDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B0328AD22C607EE0091F031 /* Debug */,
+				9B0328AE22C607EE0091F031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B0328AF22C607EE0091F031 /* Build configuration list for PBXNativeTarget "TipMessageHUDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B0328B022C607EE0091F031 /* Debug */,
+				9B0328B122C607EE0091F031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B03287522C607EC0091F031 /* Project object */;
+}
