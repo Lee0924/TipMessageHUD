@@ -16,7 +16,7 @@
 		9B03289A22C607EE0091F031 /* TipMessageHUDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B03289922C607EE0091F031 /* TipMessageHUDTests.m */; };
 		9B0328A522C607EE0091F031 /* TipMessageHUDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0328A422C607EE0091F031 /* TipMessageHUDUITests.m */; };
 		9B0328B522C60B6C0091F031 /* TipMessageHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0328B422C60B6C0091F031 /* TipMessageHUD.m */; };
-		9B0328C122C60F600091F031 /* TipMessageHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9B0328C022C60F600091F031 /* TipMessageHUD.bundle */; };
+		9B0328C322C6217A0091F031 /* TipMessageHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9B0328C222C6217A0091F031 /* TipMessageHUD.bundle */; };
 		F157F3EB8CE2FAFC871B6DFE /* libPods-TipMessageHUD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D62E94BB85784E3C8DA22D6E /* libPods-TipMessageHUD.a */; };
 /* End PBXBuildFile section */
 
@@ -59,7 +59,7 @@
 		9B0328B322C60B6C0091F031 /* TipMessageHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TipMessageHUD.h; sourceTree = "<group>"; };
 		9B0328B422C60B6C0091F031 /* TipMessageHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipMessageHUD.m; sourceTree = "<group>"; };
 		9B0328BC22C60CAE0091F031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B0328C022C60F600091F031 /* TipMessageHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TipMessageHUD.bundle; sourceTree = "<group>"; };
+		9B0328C222C6217A0091F031 /* TipMessageHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TipMessageHUD.bundle; sourceTree = "<group>"; };
 		D62E94BB85784E3C8DA22D6E /* libPods-TipMessageHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TipMessageHUD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -158,7 +158,7 @@
 		9B0328B222C60B240091F031 /* MessageHUD */ = {
 			isa = PBXGroup;
 			children = (
-				9B0328C022C60F600091F031 /* TipMessageHUD.bundle */,
+				9B0328C222C6217A0091F031 /* TipMessageHUD.bundle */,
 				9B0328B322C60B6C0091F031 /* TipMessageHUD.h */,
 				9B0328B422C60B6C0091F031 /* TipMessageHUD.m */,
 			);
@@ -289,7 +289,7 @@
 				9B03288D22C607EE0091F031 /* LaunchScreen.storyboard in Resources */,
 				9B03288A22C607EE0091F031 /* Assets.xcassets in Resources */,
 				9B03288822C607EC0091F031 /* Main.storyboard in Resources */,
-				9B0328C122C60F600091F031 /* TipMessageHUD.bundle in Resources */,
+				9B0328C322C6217A0091F031 /* TipMessageHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

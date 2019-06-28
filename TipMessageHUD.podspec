@@ -28,8 +28,8 @@ s.requires_arc = true
  s.dependency "MBProgressHUD", '~> 1.1.0' #在项目引用时一定要用 <MBProgressHUD/MBProgressHUD.h>,不能用<Masonry.h>,其他第三方的也是一样
 
 
-s.subspec 'MessageHUD' do |ss|
-    ss.source_files 'MessageHUD' = 'MessageHUD/*.{h,m}'
+s.subspec 'TipMessageHUD' do |ss|
+    ss.source_files = 'TipMessageHUD/MessageHUD/*.{h,m}'
 end
 
 
