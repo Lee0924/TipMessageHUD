@@ -29,7 +29,8 @@ s.requires_arc = true
 
 
 s.subspec 'TipMessageHUD' do |ss|
-    ss.source_files = 'TipMessageHUD/MessageHUD/*.{h,m}'
+#    ss.source_files = 'TipMessageHUD/MessageHUD/*.{h,m}'
+    ss.source_files = 'TipMessageHUD/MessageHUD/*.*'
 #   ss.source_files = '⁨TipMessageHUD/MessageHUD⁩/*.png'
 end
 
