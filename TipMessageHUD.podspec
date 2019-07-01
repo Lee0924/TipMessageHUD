@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
 s.name         = 'TipMessageHUD'
-s.version      = '0.0.2'
+s.version      = '0.0.3'
 #总结
 s.summary      = '标签指示器'
 # 说明
