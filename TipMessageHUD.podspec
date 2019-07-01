@@ -30,9 +30,8 @@ s.requires_arc = true
 
 s.subspec 'TipMessageHUD' do |ss|
     ss.source_files = 'TipMessageHUD/MessageHUD/*.{h,m}'
-    ss.resource_bundles = {
-                            TipMessageHUD => ['TipMessageHUD/MessageHUD/*.*']
-                            }
+    ss.resource = 'TipMessageHUD/MessageHUD/TipMessageHUD.bundle'
+#    ss.resource_bundles = {TipMessageHUD => ['TipMessageHUD/MessageHUD/*.*'] }
 #   ss.source_files = '⁨TipMessageHUD/MessageHUD⁩/*.png'
 end
 
